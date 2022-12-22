@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=Roboto:wght@500&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.img-reset{
+	font-size: 0px;
+}
+
+.main-container{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	width: 1920px;
+	height: 1080px;
+}
+.green-container{
+	margin-top: 40px;
+	margin-left: 0;
+	margin-bottom: 40px;
+	height: 416px;
+	background-color: #678F8D;
+}
+.green-padding{
+	padding-left: 24%;
+	padding-right: 24%;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.white-padding{
+	position: relative;
+	width: 1200;
+	padding-left: 18.75%;
+	padding-right: 18.75%;
+}
+.text-white{
+	color: white;
+	text-align: center;
+}
+h1{
+	padding-top: 40px;
+	font-size: 80px;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 400;
+}
+hr{
+	/*border: 1px solid;*/
+	background-color: black;
+	border: none;
+	height: 2px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.photo{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.subtitle{
+	margin-top: 40px;
+	margin-bottom: 12px;
+	font-size: 32px;
+	font-style: normal;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 500;
+}
+.green-subtitle{
+	margin-top: 24px;
+	margin-bottom: 12px;
+	font-size: 32px;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 500;
+}
+.en-subtitle{
+	text-align: center;
+	line-height: 100%;
+	color: #FF6670;
+	font-size: 24px;
+	font-family:  'Roboto', sans-serif;;
+	font-weight: 600;
+}
+.content{
+	line-height: 36px;
+	font-size: 24px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 300;
+	
+}
+.skill-content{
+	font-size: 24px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: left;
+	padding-left: 24px;
+	line-height: 44px;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 300;
+	
+}
+.horizontal-white-line{
+	margin-top: 32px;
+	margin-left: 15%;
+	border-left: solid #fff;
+	height: 256px;
+	position: absolute;
+}
+.horizontal-line{
+	margin-left: 1%;
+	padding-left: 24px;
+	position: absolute;
+	margin-top: 8px;
+	border-left: solid #000;
+	height: 466px;
+	position: absolute;
+}
+.work-experiance-subtitle{
+	line-height: 36px;
+	font-size: 24px;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 500;
+}
+.contact-content{
+	font-size: 24px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+	padding-left: 24px;
+	line-height: 44px;
+	font-family:  'Noto Sans TC', sans-serif;
+	font-weight: 300;
+}
+.link-img{
+	margin-top: 8px;
+}
